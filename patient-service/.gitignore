@@ -33,4 +33,4 @@ build/
 .vscode/
 
 ### volumes db ###
-../db_volumes
+../db_volumes/
