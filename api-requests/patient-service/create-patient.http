@@ -1,0 +1,11 @@
+### GET request to example server
+POST http://localhost:4000/api/patient/createPatient
+Content-Type: application/json
+
+{
+  "name": "John Doe with Billing accont",
+  "email": "test_billing_account@example.com",
+  "address": "123 main street",
+  "dateOfBirth": "1995-09-09"
+}
+###
