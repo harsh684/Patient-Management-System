@@ -18,8 +18,9 @@ COPY src ./src
 # i.e a jar file
 RUN mvn clean package
 
-# to run our build code we use openjdk
-FROM openjdk:21-jdk AS runner
+# to run our build code we use temurin
+FROM eclipse-temurin:21-jdk AS runner
+
 
 WORKDIR /app
 

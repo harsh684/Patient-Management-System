@@ -16,6 +16,7 @@ public class BillingServiceGrpcClient {
     private final BillingServiceGrpc.BillingServiceBlockingStub blockingStub;
 
     //    adding env variables for server variables to docker container
+    // value after " : " is default value
 //    these env variable get injected by spring (seperate for address and port so easily configurable)
 // after hosting aws.grpc:123123/BillingService/CreatePatientAccount
     public BillingServiceGrpcClient(@Value("${billing.service.address:localhost}") String serverAddress,
