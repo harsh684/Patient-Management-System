@@ -1,6 +1,10 @@
 1
 /var/lib/postgresql/18/docker
+<<<<<<< Updated upstream
 1760185679
+=======
+1762424007
+>>>>>>> Stashed changes
 5432
 /var/run/postgresql
 *

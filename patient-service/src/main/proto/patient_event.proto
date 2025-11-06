@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+// all generated code will go in patient.events package
+package patient.events;
+
+// tells maven we want seperate files instead of having all classes inside one parent class
+option java_multiple_files = true;
+
+message PatientEvent {
+  string patientId = 1;
+  string name = 2;
+  string email = 3;
+  string event_type = 4;
+}
