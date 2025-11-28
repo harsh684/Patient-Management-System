@@ -1,1 +1,2 @@
-db_volumes/
+db_volumes
+auth_db_volumes
