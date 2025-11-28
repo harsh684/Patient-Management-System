@@ -1,0 +1,8 @@
+### Login Request to test authentication
+POST http://localhost:4005/login
+Content-Type: application/json
+
+{
+  "email": "testuser@test.com",
+  "password": "password123"
+}
